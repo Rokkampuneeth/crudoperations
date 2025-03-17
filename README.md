@@ -1,4 +1,4 @@
- Introduction
+Introduction
 A RESTful API allows seamless communication between clients and servers using HTTP methods. Node.js and Express provide a lightweight and efficient framework to build scalable APIs. This guide covers setting up a basic CRUD API to perform Create, Read, Update, and Delete operations.
 
  Project Overview
@@ -12,7 +12,6 @@ DELETE: Remove a resource.
 
 Prerequisites
 Before starting, ensure you have the following installed:
-
 Node.js: Required to run JavaScript server-side.
 Postman or cURL: To test API endpoints.
 A code editor
@@ -24,12 +23,12 @@ Installation & Setup
 3️. Start the server: Run npm start to launch the API on http://localhost:5000/.
 
 
-Method	Endpoint	Description
-POST	:/api/resource	Create a new resource
-GET	:/api/resource	Retrieve all resources
-GET:	/api/resource/:id	Retrieve a specific resource
-PUT	:/api/resource/:id	Update a resource
-DELETE:	/api/resource/:id	Delete a resource
+Method	    Endpoint	            Description
+POST:	  /api/resource	        Create a new resource
+GET:      /api/resource	        Retrieve all resources
+GET:	  /api/resource/:id	    Retrieve a specific resource
+PUT:      /api/resource/:id	    Update a resource
+DELETE:   /api/resource/:id	     Delete a resource
 
 API Implementation
 Setting up Express Server: Initialize Express and configure middleware.
